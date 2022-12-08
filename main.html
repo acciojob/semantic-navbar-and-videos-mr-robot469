@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic</title>
     <style>
-        ul{
+        ul {
             list-style-type: none;
-            margin : 0px;
-            padding : 0px;
+            margin: 0px;
+            padding: 0px;
         }
-        li{
+
+        li {
             display: inline;
         }
     </style>
 </head>
+
 <body>
 
     <nav>
@@ -27,9 +30,24 @@
     </nav>
 
     <h1>3 random videos</h1>
-    <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls height="250"></video>
-    <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" controls height="250"></video>
-    <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" controls height="250"></video>
-    
+
+    <video width="500px" height="300px" controls="controls">
+
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            type="video/mp4">
+    </video>
+    <video width="500px" height="300px" controls="controls">
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            type="video/mp4">
+    </video>
+
+    <video width="500px" height="300px" controls="controls">
+    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+        type="video/mp4">
+    </video>
+
+
+
 </body>
+
 </html>
